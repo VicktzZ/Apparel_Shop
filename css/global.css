@@ -296,26 +296,6 @@ footer a:hover{
 
 /**MEDIA QUERIES */
 
-@media (min-width: 1440px){
-    product-card{
-        height: 28vh;
-        width: 17vw;
-    }
-    
-    .link div{
-        height:27vw;
-        width:17vw;
-    {
-
-    .desc{
-        font-size:0.8vw;
-    }
-
-    .preco{
-        font-size:1vw;
-    }
-}
-
 @media (max-width: 780px) {
     body{
         width: 100vw;
@@ -363,7 +343,7 @@ footer a:hover{
     }
 
     .benefits div:nth-child(5){
-        width: 90%;
+        width: 85%;
     }
 
     .products{
@@ -403,5 +383,25 @@ footer a:hover{
     footer img{
         height: 8em;
         width: 8rem;
+    }
+}
+
+@media (min-width: 1440px){
+    product-card{
+        height: 28vh;
+        width: 17vw;
+    }
+    
+    .link div{
+        height:27vw;
+        width:17vw;
+    {
+
+    .desc{
+        font-size:0.8vw;
+    }
+
+    .preco{
+        font-size:1vw;
     }
 }

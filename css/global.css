@@ -387,8 +387,8 @@ footer a:hover{
 }
 
 @media (min-width: 1440px){
-    product-card{
-        height: 28vh;
+    .product-card{
+        height: 28vw;
         width: 17vw;
     }
     

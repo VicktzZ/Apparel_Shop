@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">    
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <link rel="stylesheet" href="css/pagamento.css">
+    <title>Apparel Shop</title>
+</head>
+<body>
+    <header>
+        <a href="index.html" id="logo">Apparel Shop</a>
+        <div id="botoes">
+            <a href="cadastro_login.html">Register/Login</a>
+            <a href="suporte.html">Suporte</a>
+            <a href="vendedores.html">Seus Produtos</a>
+        </div>
+    </header>
+    <main>
+        <div class="compra">
+            <h2>Para continuar com sua compra, por favor, insira seus dados de pagamento</h2>
+            <div class="retangulo_centro">
+                <h1>Cartão</h1>
+                <div class="cartao">
+                    <div class="num_e_venc_cartao">
+                        <div id="numcard">
+                            <p>Número do Cartão:</p><input type="number">
+                        </div>
+                        <div id="vencard">
+                            <p>Data de vencimento do cartão:</p>
+                            <select name="meses" id="meses">
+                                <option value="00">--</option>
+                                <option value="01">01</option>
+                                <option value="02">02</option>
+                                <option value="03">03</option>
+                                <option value="04">04</option>
+                                <option value="05">05</option>
+                                <option value="06">06</option>
+                                <option value="07">07</option>
+                                <option value="08">08</option>
+                                <option value="09">09</option>
+                                <option value="10">10</option>
+                                <option value="11">11</option>
+                                <option value="12">12</option>
+                            </select>
+                            <select name="anos" id="anos">
+                                <option value="00">----</option>
+                                <option value="2021">2021</option>
+                                <option value="2022">2022</option>
+                                <option value="2023">2023</option>
+                                <option value="2024">2024</option>
+                                <option value="2025">2025</option>
+                                <option value="2026">2026</option>
+                                <option value="2027">2027</option>
+                                <option value="2028">2028</option>
+                                <option value="2029">2029</option>
+                                <option value="2030">2030</option>
+                                <option value="2031">2031</option>
+                                <option value="2032">2032</option>
+                            </select>                        
+                        </div>
+                    </div>
+                    <div class="titular_e_cvv">
+                        <div id="cvv">
+                            <p>CVV:</p><input type="text" maxlength="3">
+                        </div>
+                        <div id="nome_titular">
+                            <p>Nome do titular do cartão:</p><input type="text" id="titular" placeholder="EX: CARLOS ALMEIDA">
+                        </div>
+                    </div>
+                </div>
+                <h1>Endereço</h1>
+                <div class="faruramento">
+                    <div class="nome_e_cidade">
+                        <div id="nome">
+                            <div>
+                                <p>Primeiro nome:</p><input type="text" id="primeironome">
+                            </div>
+                            <div>
+                                <p>Último nome:</p><input type="text" id="segundonome">
+                            </div>
+                        </div>
+                        <div id="cep">
+                            <p>CEP:</p><input type="text">
+                        </div>
+                    </div>
+                    <div id="pais">
+                        <p>País:</p><input type="text">
+                    </div>
+                    <div id="cidade">
+                        <p>Cidade:</p><input type="text">
+                    </div>
+                    <div id="telefone">
+                        <p>Telefone:</p><input type="text">
+                    </div>
+                </div>
+                <div class="botoespagamento">
+                    <a href="index.html" id="back">Voltar</a>
+                    <a href="pagamentorealizado.html" id="comprar">Comprar</a>
+                </div>
+            </div>
+        </div>
+    </main>             
+        <footer> 
+            <div>
+                <h3><b>Apparel Shop</b></h3>
+            </div>
+            <h6><b>Apparel Shop</b> é marca registrada da WizGames Tecnology. Todos direitos reservados. WIZGAMES TECNOLOGIA LTDA</h6>
+            <h6>As imagens dos produtos são meramente ilustrativas. Todos os preços e condições comerciais estão sujeitos a alteração sem aviso prévio.</h6>
+            <h6>As ofertas são exclusivas para o site xgamer.glitch.me e são válidas até o término de nosso estoque. Vendas sujeitas à análise e confirmação de dados.</h6>
+        </footer>
+    </footer>
+</body>
+</html>

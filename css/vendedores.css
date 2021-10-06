@@ -1,0 +1,40 @@
+@import url(global.css);
+
+.sellers{
+    background-color: hsl(348, 83%, 47%);
+    display: flex; /*Cria uma "sub-caixa" FLEXÍVEL que aplica propiedades nos filhos*/
+    justify-content: center; /*Centraliza itens horizontalmente (SÓ É POSSÍVEL UTILIZAR COM O DISPLAY)*/
+    align-items: flex-start; /*Centraliza itens verticalmente (SÓ É POSSÍVEL UTILIZAR COM O DISPLAY)*/
+    flex-direction: row; /*Muda a direção do display flex (SÓ É POSSÍVEL UTILIZAR COM O DISPLAY FLEX)*/
+    width: 100%;
+}
+
+.your-products{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 2rem;
+    margin: 2rem;
+    height: 220px;
+    width: 18%;
+}
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.information{
+    background-color: #fff;
+    border: 1px solid black;
+    padding: 2rem;
+    margin: 4rem;
+    font-size: larger;
+    letter-spacing: 2px; /*Cria um espaçamento entre as letras*/
+    width: 50%;
+}

@@ -1,0 +1,118 @@
+@import url(global.css);
+
+.compra{
+    background-color: var(--carmesim);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px;
+    border: 1px solid black;
+    width: 100%;
+}
+
+.compra h2{
+    letter-spacing: 1px;
+    margin: 20px;
+}
+
+
+.compra p{
+    font-weight: bold;
+    font-size: 20px;
+    margin: 10px 0 10px 0;
+}
+
+#meses, #anos{
+    width: 70px;
+}
+
+.retangulo_centro{
+    width: 50%;
+    padding: 40px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    background-color: rgb(160, 18, 47);
+}
+
+.retangulo_centro h1{
+    letter-spacing: 2px;
+    font-size: 34px;
+    text-decoration: underline;
+    margin: 25px 0 25px 0;
+}
+
+.retangulo_centro h1:nth-child(1){
+    margin-top: 0;
+}
+
+.num_e_venc_cartao, .titular_e_cvv, .nome_e_cidade, .botoespagamento{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+#vencard, #nome_titular, #cep{
+    width: 100vh;
+    margin-left: 50px;
+}
+
+#nome{
+    width: 25%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+#nome p, #cep p{
+    height: 40px;
+}
+
+#primeironome, #segundonome{
+    width: 100%;
+}
+
+select, input{
+    width: 200px;
+    height: 30px;
+    font-size: 18px;
+}
+
+#titular{
+    text-transform: uppercase;
+}
+
+.botoespagamento a{
+    border: 1px solid black;
+    background-color: rgb(0, 38, 255);
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 25px;
+    font-size: 20px;
+    color: white;
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.botoespagamento{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.botoespagamento a:hover{
+    background-color: rgb(13, 13, 139);
+}
+
+#comprar{
+    background-color: green;
+}
+
+#comprar:hover{
+    background-color: darkgreen;
+}

@@ -1,0 +1,52 @@
+@import url(global.css);
+
+.tituloSite{
+    text-align: center; 
+    margin: 20px 20px 0 20px;
+}
+
+.tituloSite h2{
+    margin: 40px;
+}
+
+.compras h1, .vendas h1{
+    letter-spacing: 2px;
+    margin: 20px 0 20px 0;
+    text-decoration: underline;
+}
+
+.titulo-compra, .titulo-venda{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.compras, .vendas{
+    padding: 20px;
+    background-color: rgb(230, 230, 230);
+}
+
+.garantia, .seguranca, .devolucoes,
+.reputacao-vendas-envio, .gerenciar-anuncios,
+.pagamento{
+    padding: 10px;
+    border: 1px solid gray;
+    background-color: rgb(255, 255, 255);
+    border-radius: 3px;
+    font-size: 14px;
+    cursor: pointer;
+  
+}
+
+main{
+    flex-direction: column;
+}
+
+.compras-vendas{
+    display: flex;
+    justify-content: flex-start;
+    text-align: flex-start;
+    flex-direction: column;
+    margin: 20px;
+    border-radius: 8px;
+}

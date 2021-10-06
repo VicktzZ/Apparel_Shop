@@ -398,11 +398,11 @@ footer a:hover{
     {
 
     .desc{
-        font-size:0.8vw;
-        margin-top: unset;
+        font-size: 0.8vw;
+        margin-top: u0;
     }
 
     .preco{
-        font-size:1vw;
+        font-size: 1.3vw;
     }
 }

@@ -296,6 +296,26 @@ footer a:hover{
 
 /**MEDIA QUERIES */
 
+@media (min-width: 1440px){
+    product-card{
+        height: 28vh;
+        width: 17vw;
+    }
+    
+    .link div{
+        height:27vw;
+        width:17vw;
+    {
+
+    .desc{
+        font-size:0.8vw;
+    }
+
+    .preco{
+        font-size:1vw;
+    }
+}
+
 @media (max-width: 780px) {
     body{
         width: 100vw;
